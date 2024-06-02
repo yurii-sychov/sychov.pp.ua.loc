@@ -1,0 +1,35 @@
+/*Select2*/
+.select2-container .select2-selection--single {
+	height: calc(2.25rem + 2px);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 31px; right: 6px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+	margin-top: 0;
+}
+
+.selected-disps {
+	background: #B0BED9;
+}
+
+@media print{
+	@page {
+		size: auto;
+	}
+}
+
+.dataTables_scrollHeadInner {
+	width:100% !important;
+}
+.dataTables_scrollHeadInner table {
+	width:100% !important;
+}
+
+
+
+
+
+
